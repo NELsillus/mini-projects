@@ -1,0 +1,144 @@
+body{
+	background-color: #696969;
+	padding: 25px;
+}
+
+h3{
+	text-indent: 8ch;
+	font-size: 25pt;
+	font-family: System;
+	text-align: left;
+	margin-left: 20px;
+	color: black;
+}
+
+h2{
+	font-size: 28pt;
+	font-family: System;
+	color: black;
+}
+
+p{
+	text-indent: 3ch;
+	text-align: left;
+	padding: 8px;
+	font-size: 12pt;
+	margin-top: 11px;
+	margin-left: 100pt;
+	margin-right: 100pt;
+	font-size: 15pt;
+}
+
+section{
+	background-color: white;
+	text-align: center;
+}
+
+#topo_titulo{
+	background-color: #778899;
+}
+
+#imagens-apo{
+	
+}
+
+#navbarra{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	position: fixed;
+	background-color: black;
+	float: 
+}
+
+nav li{
+	color: #A9A9A9;
+	display: inline;
+	margin-left: 10px
+}
+
+footer{
+	padding: 15px;
+}
+
+hr{
+	width: 83%;
+}
+
+li#segunda-linha{
+	margin-right: 70px;
+}
+
+figure#figure-direita{
+	position: relative;
+	float: right;
+	  width: 30%;
+	  text-align: center;
+	  font-style: italic;
+	  font-size: smaller;
+	  text-indent: 0;
+	  border: thin silver solid;
+	  margin: 0.5em;
+	  padding: 0.5em;
+}
+
+figure#figure-esquerda{
+	position: relative;
+	float: left;
+	  width: 30%;
+	  text-align: center;
+	  font-style: italic;
+	  font-size: smaller;
+	  text-indent: 0;
+	  border: thin silver solid;
+	  margin: 0.5em;
+	  padding: 0.5em;
+}
+
+figcaption{
+	background-color: black;
+	font-style: italic;
+	color: white;
+	padding: 2px;
+}
+
+#kyon-foto{
+	position: relative;
+	margin: auto;
+}
+
+#haruhi-obey{
+	position: relative;
+	margin: auto;
+}
+
+article{
+	background-color:#4F4F4F;
+	width: 60%;
+	margin: auto;
+	opacity: 0.4;
+}
+
+
+p.artigo{
+	opacity: 0.9;
+	color: #D8BFD8;
+	font-family: Arial, sans-serif;
+	font-size: 25pt;
+}
+
+strong{
+	color: #B0E0E6;
+	font-size: 50pt;
+}
+
+#mandamentos{
+	color: black;
+	font-size: 17pt;
+}
+
+#titulo{
+	position: absolute;
+	margin-top: 50px;
+}
