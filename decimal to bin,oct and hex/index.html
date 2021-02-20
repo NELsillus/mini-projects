@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title></title>
+</head>
+<body>
+	<header>
+		<h1>Conversor de bases númericas</h1>
+	</header>
+	<section>
+		<div>
+			<p>Digite o número:
+				<input type="number" name="txtNum" id="txtNum" min="0">
+				<input type="button" name="botao" id="botao" value="Converter" onclick="converter()">
+			</p>
+			<input type="radio" name="radBase" checked>
+			<label>Binário</label>
+			<input type="radio" name="radBase">
+			<label>Octal</label>
+			<input type="radio" name="radBase">
+			<label>Hexadecimal</label>
+		</div>
+
+		<div id="res">
+			resultado aqui...
+		</div>
+
+	</section>
+	<script src="script.js"></script>
+</body>
+</html>
