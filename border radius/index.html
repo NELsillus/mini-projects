@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Border Radius Maker</title>
+</head>
+<body>
+	
+	<script type="text/javascript">
+		function mudaBorda(){
+
+			const caixaGrande = document.querySelector('div#caixa-maior')
+			const caixaPequena = document.querySelector('div#caixa-menor')
+			const valor = document.querySelector('input#barra-numero')
+			const br = valor.value;
+			caixaGrande.style.borderRadius = `${br}px`
+			caixaPequena.innerHTML = `border-radius: ${valor.value}px;`	
+
+}
+	</script>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<p>Border-Radius Previwer</p>
+
+	<div id="caixa-maior">
+		<div id="caixa-menor">
+			
+		</div>
+	</div>
+
+	<div id="insere-numero">
+		<input type="number" name="barra-numero" id="barra-numero">
+		<br>
+		<input type="button" value="preview" onclick="mudaBorda()">
+	</div>
+	
+	
+</body>
+</html>
