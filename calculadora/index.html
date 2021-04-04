@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title>Calculadora Online</title>
+</head>
+<body>
+	<div class="visor"></div>
+		<div class="container">
+			<input type="button" value="C" class="tecla" onclick="limparTela()">
+			<input type="button" value="<" class="tecla" onclick="apagar()">
+			<input type="button" value="(" class="tecla" onclick="digitar(value)">
+			<input type="button" value=")" class="tecla" onclick="digitar(value)">
+			<input type="button" value="7" class="tecla" onclick="digitar(value)">
+			<input type="button" value="8" class="tecla" onclick="digitar(value)">
+			<input type="button" value="9" class="tecla" onclick="digitar(value)">
+			<input type="button" value="*" class="tecla" onclick="digitar(value)">
+			<input type="button" value="4" class="tecla" onclick="digitar(value)">
+			<input type="button" value="5" class="tecla" onclick="digitar(value)">
+			<input type="button" value="6" class="tecla" onclick="digitar(value)">
+			<input type="button" value="+" class="tecla" onclick="digitar(value)">
+			<input type="button" value="1" class="tecla" onclick="digitar(value)">
+			<input type="button" value="2" class="tecla" onclick="digitar(value)">
+			<input type="button" value="3" class="tecla" onclick="digitar(value)">
+			<input type="button" value="/" class="tecla" onclick="digitar(value)">
+			<input type="button" value="0" class="tecla" onclick="digitar(value)">
+			<input type="button" value="-" class="tecla" onclick="digitar(value)">
+			<input type="button" value="=" class="tecla igual" onclick="calcularResultado()">
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
