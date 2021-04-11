@@ -1,0 +1,35 @@
+body{
+	background-color: #F0FFFF;
+	color: #483D8B; 
+}
+
+h3{
+	text-align: center;
+	font-size: 30pt;
+}
+
+div#campoDados{
+	text-align: center;
+	font-size: 23px;
+}
+
+div#resultado{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 200px;
+	border: 2px dashed #483D8B;
+	text-align: center;
+	font-size: 190px;
+}
+
+input{
+	margin: 15px;
+}
+
+input#botao{
+	color: white;
+	font-size: 40px;
+	background-color: #483D8B; 
+}
