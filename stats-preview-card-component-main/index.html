@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    #boxAlta{
+      border-radius: 10px;
+      display: grid;
+      grid-template-columns: auto auto;
+      background-color: #1c1938;
+      width: 1078px;
+      height: 446px;
+      margin: auto;
+      margin-top: 100px;
+    }
+
+    body{
+      background-color: #0a0c1b;
+      color: white;
+    }
+    b{
+      font-size: 23px; 
+    }
+    #purpleTitleWord{
+      color: purple
+    }
+
+    h2{
+      font-size: 35px;
+      color: white;
+      font-family: Arial;
+    }
+
+    h2 b{
+      font-size: 35px;
+    }
+
+    div p{
+      color: white;
+      font-family: Arial;
+    }
+    #image img{
+      width: 679px;
+      height: 446px;
+    }
+    #titleNum{
+      font-size: 23px;
+      
+    }
+    #container{
+      margin-top: 70px;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 5px;
+    }
+    .numGrid{
+      font-weight: bold;
+      font-family: Arial;
+      font-size: 25px;
+    }
+    .textGrid{
+      font-family: Arial;
+      font-size: 12px;
+      color: #c2c2c2;
+    }
+    #imagem{
+      max-width: 539px;
+      max-height: 450px;
+      height: auto;
+      width: auto;
+      margin-left: 
+    }
+    #image{
+      border-radius: 10px;
+    }
+    #text{
+      padding: 60px;
+    }
+    #text p{
+      color: #c2c2c2;
+    }
+  </style>
+</head>
+<body>
+  <div id="boxAlta">
+    <!--TEXTO LADO DIREITO COMEÇA-->
+    <div id="text">
+      <h2>Get <b id="purpleTitleWord">insights</b> that help your business grow.</h2>
+
+      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+      experience, and overall efficiency.</p>
+
+      <div id="container">
+        <div class="numGrid">10k+</div> <div class="numGrid">314</div> <div class="numGrid">12M+</div>
+        <div class="textGrid">COMPANIES</div> <div class="textGrid">TEMPLATES</div> <div class="textGrid">QUERIES</div>
+      </div>
+    </div>
+    <!--TEXTO LADO DIREITO TERMINA-->
+
+    <!--IMAGEM ESQUERDA COMEÇA-->
+    <div id="image">
+      <img src="images/image-header-desktop.jpg" id="imagem">
+    </div>
+    <!--IMAGEM  ESQUERDA TERMINA-->
+  </div>
+  <br>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
