@@ -1,0 +1,38 @@
+body{
+	background-color: #bf3131;
+}
+
+h3{
+	text-align: center;
+	color: white;
+	font-size: 45px;
+}
+
+button{
+  width: 70px;
+  height: 40px;
+  padding: 1px;
+  margin-left: 46vw;
+  margin-top: 10px;
+}
+
+div{
+	border-radius: 10px;
+}
+
+#entraDados{
+	background-color: white;
+	width: 400px;
+	margin: auto;
+  text-align: center;
+	padding: 1px;
+}
+
+
+#textoLorem{
+	background-color: white;
+	width: 90vw;
+	padding: 10px;
+	margin: auto;
+	margin-top: 20px;
+}
