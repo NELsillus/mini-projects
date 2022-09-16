@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  max-width: 600px;
+  margin: 60px auto;
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+}
